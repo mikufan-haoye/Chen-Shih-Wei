@@ -1,0 +1,73 @@
+.nav2 {
+    background-color: rgb(195 245 230);
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.nav2 a {
+    color: rgb(58, 176, 245);
+    text-decoration: rgb(235, 75, 57);
+    display: inline-block;
+    padding: 10px 100px;
+    transition: 0.7s;
+    background-color: rgb(206, 248, 248);
+}
+
+.nav2 a:hover {
+    background-color: wheat;
+    color: tomato;
+}
+.rounded-box {
+    width: 200px;
+    height: 100px;
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 15px; /* 圓角半徑 */
+  }
+  @-webkit-keyframes color-change-5x {
+    0% {
+      background: #a1f8fe;
+    }
+    25% {
+      background: #d69df6;
+    }
+    50% {
+      background: #ffa1a1;
+    }
+    75% {
+      background: rgb(249, 229, 165);
+    }
+    100% {
+      background: #b2f69d;
+    }
+  }
+  @keyframes color-change-5x {
+    0% {
+      background: #9cf1f8;
+    }
+    25% {
+      background: #d9a0fa;
+    }
+    50% {
+      background: #e09e9e;
+    }
+    75% {
+      background: #f0dea4;
+    }
+    100% {
+      background: #b2f29f;
+    }
+  }
+  .color-change-5x {
+  -webkit-animation: color-change-5x 8s linear infinite alternate both;
+	    animation: color-change-5x 8s linear infinite alternate both;
+}
